@@ -1,0 +1,13 @@
+one new can be belonged to the more than one ministry, So take the highest two or three probabilites and test than are they higher than the particular threshold, if they are than sent them to more than one ministry.
+
+
+One have to add the news that belongs to the class 60   -> Done
+
+One can also add the sequences at the post and pre  -> Done
+
+One can also append the ministry name at the starting of the any sequence, (only name of ministry by removing the 'ministry of')   -> DOne
+
+One have to make some of the text features like, car in transportation ministry and etc and need to make it overlfit for making it good one in prediction
+
+
+Testing, verification od the model

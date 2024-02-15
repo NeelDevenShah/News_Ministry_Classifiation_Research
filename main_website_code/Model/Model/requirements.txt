@@ -1,0 +1,13 @@
+numpy==1.23.5
+pandas==2.1.1
+tensorflow==2.9.3
+keras==2.9.0
+flask==1.1.2
+keras_preprocessing
+nltk==3.7
+pytube==15.0.0
+subprocess.run==0.0.8
+wave==0.0.2
+SpeechRecognition==3.10.0
+scrapy==2.11.0
+twisted==22.10.0

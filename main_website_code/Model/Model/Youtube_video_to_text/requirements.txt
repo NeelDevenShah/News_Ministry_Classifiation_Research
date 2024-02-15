@@ -1,0 +1,4 @@
+pytube==15.0.0
+subprocess.run==0.0.8
+wave==0.0.2
+SpeechRecognition==3.10.0

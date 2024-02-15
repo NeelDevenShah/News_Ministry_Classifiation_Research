@@ -1,0 +1,33 @@
+Documentation for using the pdf and webs scrapping tool
+**MADE BY NEEL SHAH
+
+#####Current version of the model runs by help of python libraries named pytesseract, pdf2image
+
+**Also dont forget the remove all the data from the files named tmp.txt, ErrorWeb.txt, DealerWebsites.txt, webData.txt before using this model, otherwise the error will be there, As the old and new data will be mixed up
+
+# ALSO MAKE SURE, YOU HAVE DELETED ALL THE IMAGES AND THE PDF, FILE THAT WAS USED BEFORE YOUR RUN OF THE CODE, OTHERWISE IT WILL GENERATE THE ERROR
+
+(For protected pdf in which text extraction is not possible, If it is not protected pdf, The code in the main file can be changed to directly read the text from the pdf and than directly go to step 5 and the direct text extraction from the pdf can be done by help of the pyPDF2 library and some changes would be made in the current existing code.......)
+
+1. The first step of it is to upload an pdf in the folder named the model
+
+2. Than put the name of the pdf in the main file, Where it is told to put
+
+3. Than run the file main.py, Which will convert the pdf to the images in the same folder
+
+4. Than run the second.py file to save the text from this images to the file named tmp.txt
+
+5. Than run the third.py file, in it configure it as per we want the data to read from the given data, and also do not forget to change the starting and ending index of original scanning if the text i.e. value inside the for loop(This code is originally written to find the website url from the text and search by help of the keyword wheather that comapany is of our intrest or not)
+
+6. Than run four.py by changing the keywords in the array naed keywords, as per the requirment, And this will take the website url details from the file that we have configured during the 5th step.
+
+7. And than at the last, After scanning we can find the websites of the our intrest in the file named DealerWebsites.txt, We can also get the list of th ewebsites that are not scanned properly and that have given some error in the file named ErrorWeb.txt
+
+8. In the file named check.py we can fild the keyword due to which the particular website was selected, We just want to add the keywords same as that of we used to find the website in the keywords array, And also add the website url in the for loop as per mentioned in the file, And that will print the reason for what purpose that particular file was selected
+
+==>And if any website is scaned than on terminal it will print "Done", If some website is not scanned due to error than on terminal it will print the "Error", and if some website is selected for us than it will print the "1", till all websites are selected
+
+
+@@IN THE DealerWebsite.txt the urls of the dealers which are important to us will be stored, in the ErrorWeb.txt the websites which have given error will be stored, in tmp.txt all the daat regarding the pdf will be stored, in the webData.txt all the urls for the pdf will be stored....
+
+==>MADE BY LOVE NEEL SHAH, Happy codding.....

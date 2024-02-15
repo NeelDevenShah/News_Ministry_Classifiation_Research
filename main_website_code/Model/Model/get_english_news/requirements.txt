@@ -1,0 +1,5 @@
+scrapy==2.11.0
+flask== 2.3.3
+twisted==22.10.0
+subprocess.run==0.0.8
+pandas==2.1.1
